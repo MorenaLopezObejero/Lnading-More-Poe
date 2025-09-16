@@ -9,13 +9,14 @@ const StatsCarousel: React.FC = () => {
         La necesidad es real, la
       </h1>
       <h1>
-        solucionar es Impulsar<span style={{ color: "orange" }}>+</span>
+        solucion es Impulsar<span style={{ color: "orange" }}>+</span>
       </h1>
       </div>
       <div>
-        {/* Columna derecha: rectángulo gris (imagen luego) */}
+        {/* Columna: rectángulo gris (imagen luego) */}
         <div style={{ flex: 1, backgroundColor: "#ccc", height: "250px", borderRadius: "8px" }}>
           {/* Aquí después ponés <img src="..." alt="mockup" /> */}
+          <div style={{height: "150px", fontSize: "4rem" }}>Carrusel de estadisticas</div>
         </div>
       </div>
     </section>
