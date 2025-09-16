@@ -1,16 +1,16 @@
 import React from 'react';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import Mockup from './components/Mockup';
-import StatsCarousel from './components/StatsCarousel';
-import LogosCarousel from './components/LogosCarousel';
-import Footer from './components/Footer';
+import Titulo from './components/Titulo';
+import A from './components/A';
+import Mockup from './components/B';
+import StatsCarousel from './components/C';
+import LogosCarousel from './components/D';
+import Footer from './components/E';
 
 const App: React.FC = () => {
   return (
     <>
-      <Hero />
-      <Features />
+      <Titulo />
+      <A />
       <Mockup />
       <StatsCarousel />
       <LogosCarousel />

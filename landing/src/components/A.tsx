@@ -1,8 +1,8 @@
 import React from "react";
 
-const Features: React.FC = () => {
+const Descripcion: React.FC = () => {
   return (
-    <section style={{ padding: "2rem", textAlign: "center", backgroundColor: "#fbe9e7"  }}>
+    <section style={{ padding: "2rem", textAlign: "center", backgroundColor: "#F7E8D6"  }}>
       {/* contenedor en 2 columnas */}
       <div style={{ display: "flex", alignItems: "center", gap: "2rem" }}>
         
@@ -29,4 +29,4 @@ const Features: React.FC = () => {
   );
 };
 
-export default Features;
+export default Descripcion;
