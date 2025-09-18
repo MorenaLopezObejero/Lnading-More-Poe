@@ -1,4 +1,5 @@
 import React from "react";
+import Imgprsdif from '/src/assets/Imgprsdif.png';
 
 const Descripcion: React.FC = () => {
   return (
@@ -20,9 +21,10 @@ const Descripcion: React.FC = () => {
           </p>
         </div>
 
-        {/* Columna derecha: rectángulo gris (imagen luego) */}
+        {/* Columna derecha: imagen luego */}
         <div style={{ flex: 1, backgroundColor: "#ccc", height: "250px", borderRadius: "8px" }}>
-          {/* Aquí después ponés <img src="..." alt="mockup" /> */}
+          {<img src={Imgprsdif} alt="Descripción de la imagen" 
+          style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "8px" }}/>}
         </div>
       </div>
     </section>

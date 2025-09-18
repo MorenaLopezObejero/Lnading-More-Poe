@@ -7,7 +7,7 @@ import Ictw from '/src/assets/Ictw.png';
 
 const Footer: React.FC = () => {
   return (
-    <footer style={{ backgroundColor: '#F7C790' }}>
+    <footer style={{ backgroundColor: '#F2B482' }}>
       {/* Sección superior del footer */}
       <div style={{ 
         display: 'flex', 
@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
       
       {/* Sección inferior del footer */}
       <div style={{ 
-        backgroundColor: '#F7C790', 
+        backgroundColor: '#F2B482', 
         padding: '1.5rem 6rem', 
         display: 'flex', 
         justifyContent: 'space-between', 
