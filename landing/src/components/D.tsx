@@ -1,5 +1,5 @@
 import React from "react";
-import Img from '/src/assets/Imgprstrabajando.png';
+import Img from '/src/assets/reunion 1.png';
 
 const LogosCarousel: React.FC = () => {
   return (
@@ -25,16 +25,22 @@ const LogosCarousel: React.FC = () => {
             
           </div>
         </div>
-      </section>
 
-      <div style={{ backgroundColor: "#E9D2B5", padding: "4rem", textAlign: "center" }}>
-        <h2 style={{ fontSize: "2rem", fontWeight: "bold", color: "black" }}>
-          CARRUSEL DE LOGOS
-        </h2>
+        <div>
+        {/* Columna: rectángulo gris (imagen luego) */}
+        <div style={{ flex: 1, backgroundColor: "#ccc", height: "250px", borderRadius: "8px" }}>
+          {/* Aquí después ponés <img src="..." alt="mockup" /> */}
+          <h2 style={{ fontSize: "2rem" }}>
+            CARRUSEL DE LOGOS
+          </h2>
+        </div>
       </div>
+      
       <div style={{ textAlign: "center", paddingBottom: "2rem" }}>
         <p>Conocé a nuestros aliados</p>
       </div>
+
+      </section>
     </div>
   );
 };
