@@ -1,4 +1,5 @@
 import React from "react";
+import Iesc from '/src/assets/Iesc.png';
 
 const Mockup: React.FC = () => {
   return (
@@ -16,10 +17,13 @@ const Mockup: React.FC = () => {
           </p>
         </div>
 
-        {/* Columna derecha: rectángulo gris (imagen luego) */}
-        <div style={{ flex: 1, backgroundColor: "#ccc", height: "250px", borderRadius: "8px" }}>
-          {/* Aquí después ponés <img src="..." alt="mockup" /> */}
-          <div style={{height: "150px", fontSize: "4rem" }}>Mock Up</div>
+        {/* Columna derecha: imagen */}
+        <div style={{ flex: 1, height: "250px", borderRadius: "8px" }}>
+          {<img src={Iesc} alt="Descripción de la imagen" 
+          style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "8px" }}/>}
+          <p style={{ marginTop: "1rem", fontSize: "1rem", color: "#555" }}>
+            Organizar tu emprendimiento nunca fue tan fácil
+          </p>
         </div>
       </div>
     </section>

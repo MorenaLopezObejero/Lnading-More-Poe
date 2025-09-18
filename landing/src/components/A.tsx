@@ -1,5 +1,6 @@
 import React from "react";
 import Imgprsdif from '/src/assets/Imgprsdif.png';
+import Iconos from './Iconos';
 
 const Descripcion: React.FC = () => {
   return (
@@ -27,6 +28,7 @@ const Descripcion: React.FC = () => {
           style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "8px" }}/>}
         </div>
       </div>
+      <Iconos/>
     </section>
   );
 };
