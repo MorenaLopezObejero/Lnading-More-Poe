@@ -1,5 +1,6 @@
 import React from "react";
 import Iesc from '/src/assets/Iesc.png';
+import styles from './B.module.css';
 
 const Mockup: React.FC = () => {
   return (

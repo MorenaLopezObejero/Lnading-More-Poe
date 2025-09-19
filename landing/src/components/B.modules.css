@@ -1,0 +1,21 @@
+
+.sectionContainer {
+  padding: 6rem;
+  text-align: center;
+  background-color: #f7c790;
+}
+
+.columnsContainer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.leftColumn, .rightColumn {
+  flex: 1;
+}
+
+.paragraph {
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
