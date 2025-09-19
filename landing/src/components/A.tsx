@@ -6,12 +6,20 @@ const Descripcion: React.FC = () => {
   return (
     <section style={{ padding: "2rem", textAlign: "center", backgroundColor: "#F7E8D6"  }}>
       {/* contenedor en 2 columnas */}
+
+      <h1>
+        impulsar<span style={{ color: "orange" }}>+</span> nace para que
+      </h1>
+      <h1>
+        nadie emprenda solo
+      </h1>
+      
       <div style={{ display: "flex", alignItems: "center", gap: "2rem" }}>
         
         {/* Columna izquierda: texto */}
         <div style={{ flex: 1 }}>
           <p style={{ lineHeight: "1.6", fontSize: "1.1rem" }}>
-            En <strong>Impulsar+</strong> creemos que todas las personas merecen las herramientas 
+            En <strong>Impulsar<span style={{ color: "orange" }}>+</span></strong> creemos que todas las personas merecen las herramientas 
             necesarias para que sus ideas crezcan. Somos un equipo joven, multidisciplinario 
             y comprometido con la inclusión laboral y el desarrollo de emprendedores, 
             especialmente aquellos que enfrentan desafíos para organizar y gestionar sus proyectos.

@@ -12,7 +12,7 @@ const LogosCarousel: React.FC = () => {
           {/* Columna izquierda: texto */}
           <div style={{ flex: 1, textAlign: "left" }}>
             <p style={{ lineHeight: "1.6", fontSize: "1.1rem" }}>
-              En <strong>Impulsar<span style={{ color: "#F7C790" }}>+</span></strong> creemos en la colaboración. Por eso trabajamos junto a ONGs, instituciones educativas y organizaciones de apoyo a emprendedores para ampliar el alcance de nuestra misión.
+              En <strong>Impulsar<span style={{ color: "orange" }}>+</span></strong> creemos en la colaboración. Por eso trabajamos junto a ONGs, instituciones educativas y organizaciones de apoyo a emprendedores para ampliar el alcance de nuestra misión.
             </p>
             <p style={{ lineHeight: "1.6", fontSize: "1.1rem", marginTop: "1rem" }}>
               Esta red de aliados nos permite brindar capacitación, difusión y acceso a recursos que fortalecen cada emprendimiento que acompaña nuestra plataforma.

@@ -13,7 +13,7 @@ const StatsCarousel: React.FC = () => {
       </h1>
       </div>
       <div>
-        {/* Columna: rectángulo gris (imagen luego) */}
+        {/* Columna: imagen luego */}
         <div style={{ flex: 1, backgroundColor: "#ccc", height: "250px", borderRadius: "8px" }}>
           {/* Aquí después ponés <img src="..." alt="mockup" /> */}
           <div style={{height: "150px", fontSize: "4rem" }}>Carrusel de estadisticas</div>

@@ -7,7 +7,7 @@ import Ictw from '/src/assets/Ictw.png';
 
 const Footer: React.FC = () => {
   return (
-    <footer style={{ backgroundColor: '#F2B482' }}>
+    <section style={{ backgroundColor: '#F2B482' }}>
       {/* Sección superior del footer */}
       <div style={{ 
         display: 'flex', 
@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
           <button style={{ 
             backgroundColor: '#F49B44', 
             border: 'none', 
-            color: 'white', 
+            color: '#2D1C10', 
             padding: '0.7rem 2rem', 
             marginTop: '1rem', 
             borderRadius: '5px',
@@ -93,7 +93,7 @@ const Footer: React.FC = () => {
           <a href="#" style={{ textDecoration: 'none', color: '#000', fontSize: '0.9rem' }}>Quejas</a>
         </div>
       </div>
-    </footer>
+    </section>
   );
 };
 
