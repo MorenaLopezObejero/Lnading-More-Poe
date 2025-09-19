@@ -1,10 +1,10 @@
 import React from "react";
 import Iesc from '/src/assets/Iesc.png';
-import styles from './B.module.css';
+/*import styles from './B.module.css';*/
 
 const Mockup: React.FC = () => {
   return (
-    <section style={{ padding: "6rem", textAlign: "center", backgroundColor: "#F7C790"  }}>
+    <section className="columnsContainer" style={{ padding: "6rem", textAlign: "center", backgroundColor: "#F7C790"  }}>
       {/* contenedor en 2 columnas */}
       <div style={{ display: "flex", alignItems: "center", gap: "2rem" }}>
         
